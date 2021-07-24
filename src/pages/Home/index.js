@@ -1,7 +1,13 @@
 import React from 'react';
 
-function Home() {
-    return <div />;
-}
+import { ProductList } from './styles';
 
-export default Home;
+export default function Home() {
+    return (
+        <ProductList>
+            <li>
+                <img src="" alt="" />
+            </li>
+        </ProductList>
+    );
+}
