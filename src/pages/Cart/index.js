@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import {
     MdRemoveCircleOutline,
@@ -13,11 +14,11 @@ export default function Cart() {
             <ProductTable>
                 <thead>
                     <tr>
-                        <th>
-                            <th>PRODUTO</th>
-                            <th>QTD</th>
-                            <th>SUBTOTAL</th>
-                        </th>
+                        <th />
+                        <th>PRODUTO</th>
+                        <th>QTD</th>
+                        <th>SUBTOTAL</th>
+                        <th />
                     </tr>
                 </thead>
                 <tbody>
@@ -61,14 +62,14 @@ export default function Cart() {
                 </tbody>
             </ProductTable>
 
-            <fotter>
+            <footer>
                 <button type="button">Finalizar pedido</button>
 
                 <Total>
                     <span>TOTAL</span>
                     <strong>R$1920,28</strong>
                 </Total>
-            </fotter>
+            </footer>
         </Container>
     );
 }
