@@ -8,6 +8,7 @@ import {
 
 import { Container, ProductTable, Total } from './styles';
 
+// cart
 export default function Cart() {
     return (
         <Container>
