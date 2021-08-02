@@ -24,6 +24,7 @@ class Home extends Component {
     }
 
     handleAddProduct = product => {
+        // eslint-disable-next-line react/prop-types
         const { dispatch } = this.props;
 
         dispatch({
